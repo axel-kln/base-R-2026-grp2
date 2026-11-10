@@ -77,3 +77,13 @@ typeof(typeof)
 typeof(class)
 ```
 
+## Pushing a local repository to an empty remote
+
+```{bash}
+#| eval: false
+MacBook-Air-de-Axel:r101 axelklenne$ git remote add origin https://github.com/axel-kln/base-R-2026-grp2.git 
+MacBook-Air-de-Axel:r101 axelklenne$ git branch -M main
+MacBook-Air-de-Axel:r101 axelklenne$ git push -u origin main
+```
+
+
